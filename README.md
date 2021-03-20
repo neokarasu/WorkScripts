@@ -12,3 +12,8 @@ Simple scripts for various things I need for work.
 * SSLTestPlesk.sh
   - Checks whether standard SSL certs from the installer are being used for the ports. If so then it states on which ports. This means the config needs to be changed to use their own SSL certs to be safe.
   - Usage: ./SSLTestPlesk.sh $ip where $ip is the address to be tested
+
+* DNSSEC-DSFromKey.php
+  - Performs a dig for the DNSKEy of a domain name on one of its nameservers, generates a SHA256 DS key for it and outputs it.
+  - Usage: DNSSEC-DSFromKey.php $domain where $domain is the domain name the DS key needs to be generated for.
+
