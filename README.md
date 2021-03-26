@@ -15,5 +15,6 @@ Simple scripts for various things I need for work.
 
 * DNSSEC-DSFromKey.php
   - Performs a dig for the DNSKEy of a domain name on one of its nameservers, generates a SHA256 DS key for it and outputs it.
+  - Dependency: bind9utils
   - Usage: DNSSEC-DSFromKey.php $domain where $domain is the domain name the DS key needs to be generated for.
 
