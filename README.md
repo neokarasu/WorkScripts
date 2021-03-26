@@ -18,3 +18,7 @@ Simple scripts for various things I need for work.
   - Dependency: bind9utils
   - Usage: DNSSEC-DSFromKey.php $domain where $domain is the domain name the DS key needs to be generated for.
 
+* DigAll.php
+  - Performs a simple dig for the A-record of a domain on 3 of the domain's nameservers as well as the Google resolver 8.8.8.8 and shows the output.
+  - Usage: DigAll.php $domain where $domain is the domain name the digs should be performed for.
+
